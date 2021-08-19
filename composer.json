@@ -1,0 +1,29 @@
+{
+    "name": "brediweb/menu",
+    "description": "",
+    "authors": [
+        {
+            "name": "Admin",
+            "email": "contato@bredic.com.br"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Brediweb\\Menu\\Providers\\MenuServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "require": {
+        "cviebrock/eloquent-sluggable": "^4.8",
+        "brediweb/imagemupload": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brediweb\\Menu\\": "src/"
+        }
+    }
+}
